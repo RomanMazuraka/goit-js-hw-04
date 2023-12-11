@@ -1,6 +1,7 @@
 function isEnoughCapacity(products, containerSize) {
-    let totalProducts = 0;
-
+  
+  let totalProducts = 0;
+  
   for (const key in products) {
     if (products.hasOwnProperty(key)) {
       totalProducts += products[key];
